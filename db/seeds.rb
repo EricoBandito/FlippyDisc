@@ -15,5 +15,10 @@ discraft_list.each do |discraft_disc|
     Disc.create(make: "Discraft",
                 model: discraft_disc['name'],
                 disc_type: discraft_disc['class'],
-                dc_flight: discraft_disc['flight'])
+                plastic: 'test',
+                dc_flight: discraft_disc['flight'],
+                nova_speed: 1,
+                nova_glide: 1,
+                nova_turn: 1,
+                nova_fade: 1)
 end
