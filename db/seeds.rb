@@ -10,3 +10,10 @@ path = File.join Rails.root, 'public'
 discraft_list = JSON.parse(File.read( path + '/discraft.json'))
 innova_list = JSON.parse(File.read( path + '/innova.json'))
 
+
+discraft_list.each do |discraft_disc|
+    Disc.create(make: "Discraft",
+                model: discraft_disc['name'],
+                disc_type: discraft_disc['class'],
+                dc_flight: discraft_disc['flight'])
+end

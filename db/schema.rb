@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2019_03_11_021404) do
   create_table "discs", force: :cascade do |t|
     t.string "make"
     t.string "model"
-    t.string "type"
+    t.string "disc_type"
     t.string "plastic"
     t.float "dc_flight"
     t.integer "nova_speed"
