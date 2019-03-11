@@ -1,0 +1,1265 @@
+[
+	{
+		"name" : "Sonic",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 1,
+			"glide" : 2,
+			"turn" : -4,
+			"fade" : 0
+		}
+	},
+	{
+		"name" : "Polecat",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"DX",
+			"R-Pro"
+		],
+		"flight" : {
+			"speed" : 1,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 0
+		}
+	},
+	{
+		"name" : "Birdie",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 1,
+			"glide" : 2,
+			"turn" : 0,
+			"fade" : 0
+		}
+	},
+	{
+		"name" : "Whale",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"XT",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 2,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 1 
+		}
+	},
+	{
+		"name" : "Rhyno",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Champion",
+			"R-Pro",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 2,
+			"glide" : 1,
+			"turn" : 0,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "Nova",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"XT"
+		],
+		"flight" : {
+			"speed" : 2,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 0
+		}
+	},
+	{
+		"name" : "Aviar Driver",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Star",
+			"GStar"
+		],
+		"flight" : {
+			"speed" : 2,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Yeti Pro Aviar",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Pro"
+		],
+		"flight" : {
+			"speed" : 2,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "JK Aviar",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Pro"
+		],
+		"flight" : {
+			"speed" : 2,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "KC Aviar",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Pro"
+		],
+		"flight" : {
+			"speed" : 2,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Classic Aviar",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 2,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 0
+		}
+	},
+	{
+		"name" : "Aviar",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Champion",
+			"XT",
+			"R-Pro",
+			"Glow",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 2,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "XD",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 3,
+			"glide" : 4,
+			"turn" : -1,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Wedge",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Star",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 3.5,
+			"glide" : 3,
+			"turn" : -3,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Pig",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"R-Pro"
+		],
+		"flight" : {
+			"speed" : 3,
+			"glide" : 1,
+			"turn" : 0,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "Hydra",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"R-Pro"
+		],
+		"flight" : {
+			"speed" : 3,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Dart",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Echo",
+			"Champion",
+			"R-Pro",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 3,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 0
+		}
+	},
+	{
+		"name" : "Classic Roc",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 3,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Aero",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Star",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 3,
+			"glide" : 6,
+			"turn" : 0,
+			"fade" : 0
+		}
+	},
+	{
+		"name" : "Wolf",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 3,
+			"turn" : -4,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "VRoc",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"GStar",
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Super Stingray",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 5,
+			"turn" : -1,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Stingray",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Star",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 5,
+			"turn" : -3,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Shark",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"GStar",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Roc+",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Champion",
+			"R-Pro"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 5,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Roc",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Star",
+			"Pro",
+			"Glow",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "Mako",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Star",
+			"Echo Star",
+			"Glow Champion"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 5,
+			"turn" : 0,
+			"fade" : 0
+		}
+	},
+	{
+		"name" : "Lycan",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Star"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 5,
+			"turn" : 0,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Coyote",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Star"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 5,
+			"turn" : 0,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "King Cobra",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 5,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Cobra",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 4,
+			"glide" : 5,
+			"turn" : -2,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Wombat",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"GStar"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 6,
+			"turn" : -1,
+			"fade" : 0
+		}
+	},
+	{
+		"name" : "Spider",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"DX",
+			"Star",
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Skeeter",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"R-Pro",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 5,
+			"turn" : -1,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Shark3",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Roc3",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"GStar",
+			"Star",
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "Panther",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 4,
+			"turn" : -2,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Mako3",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 5,
+			"turn" : 0,
+			"fade" : 0
+		}
+	},
+	{
+		"name" : "Kite",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Star",
+			"Echo Star",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 6,
+			"turn" : -3,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Gator",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Star",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 2,
+			"turn" : 0,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "Foxbat",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Star"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 6,
+			"turn" : -1,
+			"fade" : 0
+		}
+	},
+	{
+		"name" : "Cro",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Star",
+			"R-Pro",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Atlas",
+		"class" : "Mid-Range",
+		"plastic" : [
+			"Star",
+			"Champion",
+			"XT"
+		],
+		"flight" : {
+			"speed" : 5,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Whippet",
+		"class" : "Fairway",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 6,
+			"glide" : 3,
+			"turn" : 1,
+			"fade" : 5
+		}
+	},
+	{
+		"name" : "Viper",
+		"class" : "Fairway",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 6,
+			"glide" : 4,
+			"turn" : 1,
+			"fade" : 5
+		}
+	},
+	{
+		"name" : "Leopard",
+		"class" : "Fairway",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Echo Star",
+			"Pro",
+			"Champion",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 6,
+			"glide" : 5,
+			"turn" : -2,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Gazelle",
+		"class" : "Fairway",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 6,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Cheetah",
+		"class" : "Fairway",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 6,
+			"glide" : 4,
+			"turn" : -2,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "TL",
+		"class" : "Fairway",
+		"plastic" : [
+			"Star",
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 7,
+			"glide" : 5,
+			"turn" : 0,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "TeeBird",
+		"class" : "Fairway",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"StarLite",
+			"Echo Star",
+			"Champion",
+			"Glow",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 7,
+			"glide" : 5,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Eagle",
+		"class" : "Fairway",
+		"plastic" : [
+			"Star",
+			"Champion",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 7,
+			"glide" : 4,
+			"turn" : -1,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "Banshee",
+		"class" : "Fairway",
+		"plastic" : [
+			"Chamption",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 7,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "TL3",
+		"class" : "Fairway",
+		"plastic" : [
+			"GStar"
+		],
+		"flight" : {
+			"speed" : 8,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "TeeBird3",
+		"class" : "Fairway",
+		"plastic" : [
+			"GStar"
+		],
+		"flight" : {
+			"speed" : 8,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Dragon",
+		"class" : "Fairway",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 8,
+			"glide" : 5,
+			"turn" : -2,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Archangel",
+		"class" : "Fairway",
+		"plastic" : [
+			"DX"
+		],
+		"flight" : {
+			"speed" : 8,
+			"glide" : 6,
+			"turn" : -4,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Viking",
+		"class" : "Driver",
+		"plastic" : [
+			"Champion",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 9,
+			"glide" : 4,
+			"turn" : -1,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Valkyrie",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"StarLite",
+			"Echo Star",
+			"Champion",
+			"Glow Champion",
+			"Pro",
+			"Glow",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 9,
+			"glide" : 4,
+			"turn" : -2,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Thunderbird",
+		"class" : "Driver",
+		"plastic" : [
+			"GStar",
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 9,
+			"glide" : 5,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Sidewinder",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Champion",
+			"Glow",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 9,
+			"glide" : 5,
+			"turn" : -3,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Roadrunner",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"StarLite",
+			"Echo Star",
+			"Champion",
+			"Glow Champion"
+		],
+		"flight" : {
+			"speed" : 9,
+			"glide" : 5,
+			"turn" : -4,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "FL",
+		"class" : "Driver",
+		"plastic" : [
+			"Star"
+		],
+		"flight" : {
+			"speed" : 9,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Firebird",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Champion",
+			"Star"
+		],
+		"flight" : {
+			"speed" : 9,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 4
+		}
+	},
+	{
+		"name" : "Starfire",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Champion",
+			"Pro",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 10,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "Orc",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Champion",
+			"Pro",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 10,
+			"glide" : 4,
+			"turn" : -1,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "Monster",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 10,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 5
+		}
+	},
+	{
+		"name" : "Monarchf",
+		"class" : "Driver",
+		"plastic" : [
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 10,
+			"glide" : 5,
+			"turn" : -4,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Beast",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Champion",
+			"Blizzard Champion",
+			"Pro",
+			"Glow",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 10,
+			"glide" : 5,
+			"turn" : -2,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Wraith",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"StarLite",
+			"Echo Star",
+			"Champion",
+			"Blizzard Champion",
+			"Pro",
+			"DX" 
+		],
+		"flight" : {
+			"speed" : 11,
+			"glide" : 5,
+			"turn" : -1,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "TeeRex",
+		"class" : "Driver",
+		"plastic" : [
+			"Star" 
+		],
+		"flight" : {
+			"speed" : 11,
+			"glide" : 4,
+			"turn" : 0,
+			"fade" : 4
+		}
+	},
+	{
+		"name" : "Max",
+		"class" : "Driver",
+		"plastic" : [
+			"Star"
+		],
+		"flight" : {
+			"speed" : 11,
+			"glide" : 3,
+			"turn" : 0,
+			"fade" : 5
+		}
+	},
+	{
+		"name" : "Mamba",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"StarLite",
+			"Echo Star",
+			"Champion" 
+		],
+		"flight" : {
+			"speed" : 11,
+			"glide" : 6,
+			"turn" : -5,
+			"fade" : 1
+		}
+	},
+	{
+		"name" : "Krait",
+		"class" : "Driver",
+		"plastic" : [
+			"GStar",
+			"Champion",
+			"Blizzard Champion"
+		],
+		"flight" : {
+			"speed" : 11,
+			"glide" : 5,
+			"turn" : -1,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Archon",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Echo Star",
+			"Champion",
+			"Glow Champion"
+		],
+		"flight" : {
+			"speed" : 11,
+			"glide" : 5,
+			"turn" : -2,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "XCaliber",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"Echo Star",
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 12,
+			"glide" : 5,
+			"turn" : 0,
+			"fade" : 4
+		}
+	},
+	{
+		"name" : "Wahoo",
+		"class" : "Driver",
+		"plastic" : [
+			"R-Pro"
+		],
+		"flight" : {
+			"speed" : 12,
+			"glide" : 6,
+			"turn" : -2,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Tern",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Echo Star",
+			"StarLite",
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 12,
+			"glide" : 6,
+			"turn" : -3,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "TeeDevil",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"Blizzard Champion"
+		],
+		"flight" : {
+			"speed" : 12,
+			"glide" : 5,
+			"turn" : -1,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Destroyer",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Echo Star",
+			"Champion",
+			"Blizzard Champion",
+			"Pro",
+			"DX"
+		],
+		"flight" : {
+			"speed" : 12,
+			"glide" : 5,
+			"turn" : -1,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "Vulcan",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"Champion",
+			"Blizzard Champion",
+			"Pro"
+		],
+		"flight" : {
+			"speed" : 13,
+			"glide" : 5,
+			"turn" : -4,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Katana",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Echo Star",
+			"Champion",
+			"Blizzard Champion",
+			"Pro"
+		],
+		"flight" : {
+			"speed" : 13,
+			"glide" : 5,
+			"turn" : -3,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "Groove",
+		"class" : "Driver",
+		"plastic" : [
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 13,
+			"glide" : 6,
+			"turn" : -2,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Dominator",
+		"class" : "Driver",
+		"plastic" : [
+			"GStar",
+			"Blizzard Champion"
+		],
+		"flight" : {
+			"speed" : 13,
+			"glide" : 5,
+			"turn" : -1,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Daedalus",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Champion"
+		],
+		"flight" : {
+			"speed" : 13,
+			"glide" : 6,
+			"turn" : -3,
+			"fade" : 2
+		}
+	},
+	{
+		"name" : "Boss",
+		"class" : "Driver",
+		"plastic" : [
+			"Star",
+			"GStar",
+			"Echo Star",
+			"StarLite",
+			"Champion",
+			"Blizzard Champion",
+			"Pro",
+			"R-Pro",
+			"DX" 
+		],
+		"flight" : {
+			"speed" : 13,
+			"glide" : 5,
+			"turn" : -1,
+			"fade" : 3
+		}
+	},
+	{
+		"name" : "Ape",
+		"class" : "Driver",
+		"plastic" : [
+			"Champion",
+			"Blizzard Champion"
+		],
+		"flight" : {
+			"speed" : 13,
+			"glide" : 5,
+			"turn" : 0,
+			"fade" : 4
+		}
+	}
+]

@@ -1,0 +1,467 @@
+[
+	{
+		"name" : "Magnet",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Pro D"
+		],
+		"flight" : 0.0
+	},
+	{
+		"name" : "Soft Magnet",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Pro D"
+		],
+		"flight" : 0.0
+	},
+	{
+		"name" : "Challenger",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Pro D",
+			"FLX"
+		],
+		"flight" : 1.0
+	},
+	{
+		"name" : "Soft Challenger",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"X"
+		],
+		"flight" : 1.0
+	},
+	{
+		"name" : "Banger GT",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Pro D"
+		],
+		"flight" : 1.0
+	},
+	{
+		"name" : "Soft Banger GT",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"X"
+		],
+		"flight" : 1.0
+	},
+	{
+		"name" : "Focus",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Pro D",
+			"X"
+		],
+		"flight" : 0.5
+	},
+	{
+		"name" : "Soft Focus",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"X"
+		],
+		"flight" : 0.5
+	},
+	{
+		"name" : "Soft APX",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"X"
+		],
+		"flight" : 0.0
+	},
+	{
+		"name" : "Putt'r",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"X",
+			"Z"
+		],
+		"flight" : 0.0
+	},
+	{
+		"name" : "Rattler",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Pro D"
+		],
+		"flight" : 0.0
+	},
+	{
+		"name" : "Ringer",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Pro D"
+		],
+		"flight" : 1.5
+	},
+	{
+		"name" : "Zone",
+		"class" : "Putt/Approach",
+		"plastic" : [
+			"Pro D",
+			"ESP"
+		],
+		"flight" : 2.0
+	},
+	{
+		"name" : "Buzzz",
+		"class" : "Midrange",
+		"plastic" : [
+			"Pro D",
+			"Ti",
+			"ESP",
+			"FLX",
+			"Z",
+			"X"
+		],
+		"flight" : 0.5
+	},
+	{
+		"name" : "Buzzz OS",
+		"class" : "Midrange",
+		"plastic" : [
+			"Z"
+		],
+		"flight" : 1.7
+	},
+	{
+		"name" : "Buzzz SS",
+		"class" : "Midrange",
+		"plastic" : [
+			"Z"
+		],
+		"flight" : 0.0
+	},
+	{
+		"name" : "Comet",
+		"class" : "Midrange",
+		"plastic" : [
+			"ESP",
+			"Z",
+			"X"
+		],
+		"flight" : 0.0
+	},
+	{
+		"name" : "Meteor",
+		"class" : "Midrange",
+		"plastic" : [
+			"ESP",
+			"Z"
+		],
+		"flight" : -0.5
+	},
+	{
+		"name" : "Hawk",
+		"class" : "Midrange",
+		"plastic" : [
+			"Pro D"
+		],
+		"flight" : 0.0
+	},
+	{
+		"name" : "Wasp",
+		"class" : "Midrange",
+		"plastic" : [
+			"Ti",
+			"Z"
+		],
+		"flight" : 1.5
+	},
+	{
+		"name" : "Hornet",
+		"class" : "Midrange",
+		"plastic" : [
+			"Z"
+		],
+		"flight" : 2.0
+	},
+	{
+		"name" : "Drone",
+		"class" : "Midrange",
+		"plastic" : [
+			"Pro D",
+			"Ti",
+			"FLX",
+			"Z"
+		],
+		"flight" : 2.6
+	},
+	{
+		"name" : "Predator",
+		"class" : "Fairway",
+		"plastic" : [
+			"ESP",
+			"FLX",
+			"Z"
+		],
+		"flight" : 2.5
+	},
+	{
+		"name" : "Tracker",
+		"class" : "Fairway",
+		"plastic" : [
+			"Z"
+		],
+		"flight" : 1.8
+	},
+	{
+		"name" : "Stalker",
+		"class" : "Fairway",
+		"plastic" : [
+			"Ti",
+			"Z"
+		],
+		"flight" : 1.1
+	},
+	{
+		"name" : "Cyclone",
+		"class" : "Fairway",
+		"plastic" : [
+			"Pro D",
+			"X"
+		],
+		"flight" : 1.0
+	},
+	{
+		"name" : "Xpress",
+		"class" : "Fairway",
+		"plastic" : [
+			"X",
+			"Z"
+		],
+		"flight" : 0.0
+	},
+	{
+		"name" : "Zombee",
+		"class" : "Fairway",
+		"plastic" : [
+			"Z"
+		],
+		"flight" : 1.0
+	},
+	{
+		"name" : "Impact",
+		"class" : "Fairway",
+		"plastic" : [
+			"ESP"
+		],
+		"flight" : 0.0
+	},
+	{
+		"name" : "Glide",
+		"class" : "Fairway",
+		"plastic" : [
+			"Z"
+		],
+		"flight" : -0.5
+	},
+	{
+		"name" : "Stratus",
+		"class" : "Fairway",
+		"plastic" : [
+			"Pro D",
+			"X"
+		],
+		"flight" : -1.0
+	},
+	{
+		"name" : "Crank",
+		"class" : "Driver",
+		"plastic" : [
+			"Pro D",
+			"Z",
+			"Z Lite",
+			"ESP"
+		],
+		"flight" : 1.3
+	},
+	{
+		"name" : "Nuke",
+		"class" : "Driver",
+		"plastic" : [
+			"Ti",
+			"ESP",
+			"FLX",
+			"Z",
+			"Z Lite",
+			"X",
+			"D",
+			"Z Glo"
+		],
+		"flight" : 1.6
+	},
+	{
+		"name" : "Nuke SS",
+		"class" : "Driver",
+		"plastic" : [
+			"Ti",
+			"FLX",
+			"Z",
+			"Z Lite",
+			"X",
+			"Z Glo"
+		],
+		"flight" : 1.0
+	},
+	{
+		"name" : "Nuke OS",
+		"class" : "Driver",
+		"plastic" : [
+			"Z"
+		],
+		"flight" : 2.2
+	},
+	{
+		"name" : "Force",
+		"class" : "Driver",
+		"plastic" : [
+			"Pro D",
+			"X",
+			"Z",
+			"ESP",
+			"Ti"
+		],
+		"flight" : 2.0
+	},
+	{
+		"name" : "Surge",
+		"class" : "Driver",
+		"plastic" : [
+			"D",
+			"Z",
+			"ESP",
+			"FLX"
+		],
+		"flight" : 1.7
+	},
+	{
+		"name" : "Surge SS",
+		"class" : "Driver",
+		"plastic" : [
+			"Z",
+			"Z Lite",
+			"FLX"
+		],
+		"flight" : 1.6
+	},
+	{
+		"name" : "Pulse",
+		"class" : "Driver",
+		"plastic" : [
+			"ESP"
+		],
+		"flight" : 1.9
+	},
+	{
+		"name" : "Spectra",
+		"class" : "Driver",
+		"plastic" : [
+			"Z"
+		],
+		"flight" : 1.0
+	},
+	{
+		"name" : "Avenger",
+		"class" : "Driver",
+		"plastic" : [
+			"Pro D",
+			"X",
+			"Z",
+			"ESP",
+			"FLX"
+		],
+		"flight" : 1.6
+	},
+	{
+		"name" : "Avenger SS",
+		"class" : "Driver",
+		"plastic" : [
+			"D",
+			"X",
+			"Z",
+			"Z Lite",
+			"ESP",
+			"FLX",
+			"Ti"
+		],
+		"flight" : 0.5
+	},
+	{
+		"name" : "Heat",
+		"class" : "Driver",
+		"plastic" : [
+			"Z"
+		],
+		"flight" : 0.0
+	},
+	{
+		"name" : "Flash",
+		"class" : "Driver",
+		"plastic" : [
+			"Z",
+			"ESP"
+		],
+		"flight" : 1.5
+	},
+	{
+		"name" : "Wildcat",
+		"class" : "Driver",
+		"plastic" : [
+			"X"
+		],
+		"flight" : 1.5
+	},
+	{
+		"name" : "Mantis",
+		"class" : "Driver",
+		"plastic" : [
+			"Z",
+			"Z Lite",
+			"Pro D"
+		],
+		"flight" : 0.8
+	},
+	{
+		"name" : "XL",
+		"class" : "Driver",
+		"plastic" : [
+			"Pro D",
+			"X",
+			"Z",
+			"ESP",
+			"FLX"
+		],
+		"flight" : 1.2
+	},
+	{
+		"name" : "XS",
+		"class" : "Driver",
+		"plastic" : [
+			"X",
+			"Z"
+		],
+		"flight" : 1.5
+	},
+	{
+		"name" : "Flick",
+		"class" : "Driver",
+		"plastic" : [
+			"Z"
+		],
+		"flight" : 2.5
+	},
+	{
+		"name" : "Crush",
+		"class" : "Driver",
+		"plastic" : [
+			"Pro D",
+			"Z"
+		],
+		"flight" : 1.8
+	}
+]
