@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  make: MyString
+  model: MyString
+  type: 
+  plastic: MyString
+  dc_flight: 1.5
+  nova_speed: 1
+  nova_glide: 1
+  nova_turn: 1
+  nova_fade: 1
+
+two:
+  make: MyString
+  model: MyString
+  type: 
+  plastic: MyString
+  dc_flight: 1.5
+  nova_speed: 1
+  nova_glide: 1
+  nova_turn: 1
+  nova_fade: 1
