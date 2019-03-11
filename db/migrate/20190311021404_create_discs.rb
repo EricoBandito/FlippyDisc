@@ -10,6 +10,7 @@ class CreateDiscs < ActiveRecord::Migration[5.2]
       t.integer :nova_glide
       t.integer :nova_turn
       t.integer :nova_fade
+      t.string :image
 
       t.timestamps
     end

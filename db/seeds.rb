@@ -16,7 +16,8 @@ discraft_list.each do |discraft_disc|
                 model: discraft_disc['name'],
                 disc_type: discraft_disc['class'],
                 plastic: 'test',
-                dc_flight: discraft_disc['flight'])
+                dc_flight: discraft_disc['flight'],
+                image: 'discraft_logo.png')
 
     discraft_disc['plastic'].each do |plastic|
 

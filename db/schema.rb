@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 2019_03_11_145247) do
     t.integer "nova_glide"
     t.integer "nova_turn"
     t.integer "nova_fade"
+    t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
