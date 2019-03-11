@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 2019_03_11_145247) do
   end
 
   create_table "plastics", force: :cascade do |t|
-    t.string "type"
+    t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

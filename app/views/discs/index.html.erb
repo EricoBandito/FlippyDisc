@@ -1,4 +1,8 @@
 <% @discs.each do |disc| %>
-    <h3><%= disc.make %><h3>
-    <h4><%= disc.model %></h4>
+    <h3><%= disc.model %><h3>
+    <h4><%= disc.disc_type %></h4>
+
+    <% disc.plastics.each do |plastic| %>
+        <h6><%= plastic.name %></h6>
+    <% end %>
 <% end %>

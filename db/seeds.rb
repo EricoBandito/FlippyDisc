@@ -12,13 +12,24 @@ innova_list = JSON.parse(File.read( path + '/innova.json'))
 
 
 discraft_list.each do |discraft_disc|
-    Disc.create(make: "Discraft",
+    disc = Disc.create(make: "Discraft",
                 model: discraft_disc['name'],
                 disc_type: discraft_disc['class'],
                 plastic: 'test',
-                dc_flight: discraft_disc['flight'],
-                nova_speed: 1,
-                nova_glide: 1,
-                nova_turn: 1,
-                nova_fade: 1)
+                dc_flight: discraft_disc['flight'])
+
+    discraft_disc['plastic'].each do |plastic|
+
+
+
+        if Plastic.exists?(:name => plastic)
+            plastic_id  = Plastic.find_by(name: plastic).id
+            DiscPlastic.create(disc_id: disc.id,
+                                plastic_id: plastic_id)
+        else
+            plastic = Plastic.create(name: plastic)
+            DiscPlastic.create(disc_id: disc.id,
+                                plastic_id: plastic_id)
+        end
+    end
 end
