@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_11_021404) do
+ActiveRecord::Schema.define(version: 2019_03_11_145247) do
+
+  create_table "disc_plastics", force: :cascade do |t|
+    t.integer "plastic_id"
+    t.integer "disc_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["disc_id"], name: "index_disc_plastics_on_disc_id"
+    t.index ["plastic_id"], name: "index_disc_plastics_on_plastic_id"
+  end
 
   create_table "discs", force: :cascade do |t|
     t.string "make"
@@ -22,6 +31,12 @@ ActiveRecord::Schema.define(version: 2019_03_11_021404) do
     t.integer "nova_glide"
     t.integer "nova_turn"
     t.integer "nova_fade"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "plastics", force: :cascade do |t|
+    t.string "type"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
