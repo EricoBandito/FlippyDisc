@@ -62,3 +62,5 @@ discraft_list.each do |discraft_disc|
         end
     end
 end
+
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
