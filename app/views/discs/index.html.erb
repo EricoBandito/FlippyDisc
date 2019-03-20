@@ -1,10 +1,34 @@
-<% @discs.each do |disc| %>
-    <%= image_tag disc.image %>
-    <h3><%= disc.model %><h3>
-    <h4><%= disc.disc_type %></h4>
+<div class="container">
 
-    <% disc.plastics.each do |plastic| %>
-        <h6><%= plastic.name %></h6>
+    <%# speed #bfecb3
+    glide #ffcc66
+    turn #b9dcff
+    fade #ffff99 %>
 
-    <% end %>
-<% end %>
+    <h1 class="title is-1">Disc Store</h1>
+    <h5 class="subtitle is-5">Let em fly</h5>
+    <div class="columns is-mobile is-multiline">
+        <% @discs.each do |disc| %>
+            <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+                <div class="card">
+                    <div class="card-image" style="padding:16px;">
+                        <%= image_tag disc.image %>
+                    </div>
+                    <div class="card-content">
+                        <div>
+                            <div style="display: inline-block; width: 36px; height: 36px; background-color:#bfecb3;">1</div>
+                            <div style="margin:0px; display: inline-block; width: 36px; height: 36px; background-color:#ffcc66;">1</div>
+                        </div>
+                        <div>
+                            <div style="display: inline-block; width: 36px; height: 36px; background-color:#b9dcff;">1</div>
+                        <div style="margin:0px; display: inline-block; width: 36px; height: 36px; background-color:#ffff99;">1</div>
+                        </div>
+                        <h3><%= disc.model %><h3>
+                        <h4><%= disc.disc_type %></h4>
+                    </div>
+                </div>
+            </div>
+
+        <% end %>
+    </div>
+</div>
