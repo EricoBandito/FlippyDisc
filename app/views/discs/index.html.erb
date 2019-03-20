@@ -10,21 +10,28 @@
     <div class="columns is-mobile is-multiline">
         <% @discs.each do |disc| %>
             <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
-                <div class="card">
-                    <div class="card-image" style="padding:16px;">
+                <div class="card grow pointer">
+                    <div class="card-image pa3">
                         <%= image_tag disc.image %>
                     </div>
                     <div class="card-content">
-                        <div>
-                            <div style="display: inline-block; width: 36px; height: 36px; background-color:#bfecb3;">1</div>
-                            <div style="margin:0px; display: inline-block; width: 36px; height: 36px; background-color:#ffcc66;">1</div>
+                        <div class="flex">
+                            <div>
+                                <div class="flex">
+                                    <div class="w2 h2" style="background-color:#bfecb3;">1</div>
+                                    <div class="w2 h2" style="background-color:#ffcc66;">1</div>
+                                </div>
+                                <div class="flex">
+                                    <div class="w2 h2" style="background-color:#b9dcff;">1</div>
+                                    <div class="w2 h2" style="background-color:#ffff99;">1</div>
+                                </div>
+                            </div>
+                            <h3 class="is-size-5 mt3"><%= disc.model %><h3>
                         </div>
-                        <div>
-                            <div style="display: inline-block; width: 36px; height: 36px; background-color:#b9dcff;">1</div>
-                        <div style="margin:0px; display: inline-block; width: 36px; height: 36px; background-color:#ffff99;">1</div>
+
+                        <div class="tc">
+                        <span class="mt3 tag is-info"><%= disc.disc_type %></span>
                         </div>
-                        <h3><%= disc.model %><h3>
-                        <h4><%= disc.disc_type %></h4>
                     </div>
                 </div>
             </div>
