@@ -1,6 +1,35 @@
-<h1>Discs#show</h1>
-<p>Find me in app/views/discs/show.html.erb</p>
+<div class="flex">
+    <div class="w5 ba pv3">
+        <%= image_tag @disc.image %>
+        <div class="mt2 flex justify-around">
+            <div>
+                <div><span>Make: </span> <%= @disc.make %></div>
+                <div><span>Model: </span> <%= @disc.model %></div>
+                <span class="mt3 tag is-info"><%= @disc.disc_type %></span>
+            </div>
+
+            <% if @disc.make === "Innova" %>
+                <%= render partial: "shared/nova_flight", locals: {disc: @disc} %>
+            <% else %>
+                <%= render partial: "shared/discraft_flight", locals: {disc: @disc} %>
+            <% end %>
+
+        </div>
+    </div>
+    <div class="w5 pt4 pl4">
+          <div><span>Price: </span> 12.99</div>
+
+        <div class="mv3 flex items-center">
+            <div>Quantity</div>
+            <div class="w3 ml3">
+                <input class="input" type="text">
+            </div>
+        </div>
+
+        <a class="button is-success">Add to cart</a>
+
+    </div>
+
+</div>
 
 
-<%= image_tag @disc.image %>
-<%= @disc.model %>
