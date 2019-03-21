@@ -18,17 +18,15 @@
                                 <%= image_tag disc.image %>
                             </div>
                             <div class="card-content">
-                                <div class="flex">
-                                    <div>
-                                        <div class="flex ">
-                                            <div class="w2 h2" style="background-color:#bfecb3;">1</div>
-                                            <div class="w2 h2" style="background-color:#ffcc66;">1</div>
-                                        </div>
-                                        <div class="flex">
-                                            <div class="w2 h2" style="background-color:#b9dcff;">1</div>
-                                            <div class="w2 h2" style="background-color:#ffff99;">1</div>
-                                        </div>
-                                    </div>
+                                <div class="flex justify-around">
+
+                                    <% if disc.make === "Innova" %>
+                                        <%= render partial: "shared/nova_flight", locals: {disc: disc} %>
+
+                                    <% else %>
+                                        <%= render partial: "shared/discraft_flight", locals: {disc: disc} %>
+                                    <% end %>
+
                                     <h3 class="is-size-5 mt3"><%= disc.model %><h3>
                                 </div>
 
