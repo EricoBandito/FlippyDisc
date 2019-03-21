@@ -12,7 +12,7 @@ innova_list = JSON.parse(File.read( path + '/innova.json'))
 
 
 innova_list.each do |innova_disc|
-    disc = Disc.create(make: "Discraft",
+    disc = Disc.create(make: "Innova",
         model: innova_disc['name'],
         disc_type: innova_disc['class'],
         plastic: 'test',
