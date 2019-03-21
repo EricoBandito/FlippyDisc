@@ -7,7 +7,17 @@
 
     <h1 class="title is-4">Disc Store</h1>
     <h5 class="subtitle is-6">Let em fly</h5>
+
+    <%= form_tag(discs_path, :method => "get") do %>
+        <%= select_tag"type", options_from_collection_for_select(@types, "disc_type", "disc_type"), class: "select" %>
+        <%= submit_tag "Filter", class: "button is-primary" %>
+    <% end %>
+
+
     <div class="columns is-mobile is-multiline">
+
+
+
 
         <% @discs.each do |disc| %>
 
