@@ -63,4 +63,6 @@ discraft_list.each do |discraft_disc|
     end
 end
 
+# TaxRate.create(province: "Alberta", :name "GST", :rate 0.05)
+
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
