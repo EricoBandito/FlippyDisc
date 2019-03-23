@@ -1,3 +1,5 @@
+
+
 <% @discs.each do |disc| %>
     <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
         <%= link_to disc do %>
@@ -26,3 +28,4 @@
         <% end %>
     </div>
 <% end %>
+<div class="mv4"><%= paginate @discs %></div>
