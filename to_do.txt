@@ -1,0 +1,2 @@
+- Make all option for "search_by_type"
+- Make "search_by_type" option match current url parameter

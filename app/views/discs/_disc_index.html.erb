@@ -1,0 +1,28 @@
+<% @discs.each do |disc| %>
+    <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop">
+        <%= link_to disc do %>
+            <div class="card grow pointer">
+                <div class="card-image pa3">
+                    <%= image_tag disc.image %>
+                </div>
+                <div class="card-content">
+                    <div class="flex justify-around">
+
+                        <% if disc.make === "Innova" %>
+                            <%= render partial: "shared/nova_flight", locals: {disc: disc} %>
+
+                        <% else %>
+                            <%= render partial: "shared/discraft_flight", locals: {disc: disc} %>
+                        <% end %>
+
+                        <h3 class="is-size-5 mt3 b"><%= disc.model %><h3>
+                    </div>
+
+                    <div class="tc">
+                    <span class="mt3 tag is-info"><%= disc.disc_type %></span>
+                    </div>
+                </div>
+            </div>
+        <% end %>
+    </div>
+<% end %>
