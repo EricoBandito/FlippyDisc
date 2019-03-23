@@ -63,6 +63,23 @@ discraft_list.each do |discraft_disc|
     end
 end
 
+TaxRate.create(province: "Alberta", name: "GST", rate: 0.05)
+TaxRate.create(province: "British Columbia", name: "PST", rate: 0.07)
+TaxRate.create(province: "British Columbiaa", name: "GST", rate: 0.05)
+TaxRate.create(province: "Manitoba", name: "PST", rate: 0.08)
+TaxRate.create(province: "Manitoba", name: "GST", rate: 0.05)
+TaxRate.create(province: "New-Brunswick", name: "HST", rate: 0.10)
+TaxRate.create(province: "Newfoundland and Labrador", name: "HST", rate: 0.15)
+TaxRate.create(province: "Northwest Territories", name: "GST", rate: 0.05)
+TaxRate.create(province: "Nova Scotia", name: "HST", rate: 0.15)
+TaxRate.create(province: "Ontario", name: "HST", rate: 0.13)
+TaxRate.create(province: "Prince Edward Island", name: "HST", rate: 0.15)
+TaxRate.create(province: "Quebec", name: "PST", rate: 0.09975)
+TaxRate.create(province: "Quebec", name: "GST", rate: 0.05)
+TaxRate.create(province: "Saskatchewan", name: "GST", rate: 0.05)
+TaxRate.create(province: "Saskatchewan", name: "PST", rate: 0.06)
+TaxRate.create(province: "Yukon	", name: "GST", rate: 0.05)
+
 # TaxRate.create(province: "Alberta", :name "GST", :rate 0.05)
 
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
