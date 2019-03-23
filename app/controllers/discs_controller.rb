@@ -1,6 +1,6 @@
 class DiscsController < ApplicationController
   def index
-    @discs = Disc.search(params[:type])
+    @discs = Disc.search(params[:type], params[:input])
     @types = Disc.select(:disc_type).distinct
   end
 
