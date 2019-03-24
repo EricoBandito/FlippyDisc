@@ -20,7 +20,8 @@ innova_list.each do |innova_disc|
         nova_glide: innova_disc['flight']['glide'],
         nova_turn: innova_disc['flight']['turn'],
         nova_fade: innova_disc['flight']['fade'],
-        image: 'innova_logo.png')
+        # image: 'innova_logo.png'
+        )
 
         innova_disc['plastic'].each do |plastic|
 
@@ -45,7 +46,8 @@ discraft_list.each do |discraft_disc|
                 disc_type: discraft_disc['class'],
                 plastic: 'test',
                 dc_flight: discraft_disc['flight'],
-                image: 'discraft_logo.png')
+                # image: 'discraft_logo.png'
+                )
 
     discraft_disc['plastic'].each do |plastic|
 

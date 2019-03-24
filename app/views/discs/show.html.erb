@@ -1,6 +1,14 @@
 <div class="flex mt4 shadow-1 pv3">
     <div class="w5 ph3">
-        <%= image_tag @disc.image %>
+        <% if @disc.image.url %>
+            <%= image_tag @disc.image.url, width: 153 %>
+        <% else %>
+            <% if @disc.make === "Innova" %>
+                <%= image_tag "innova_logo.png"%>
+            <% else %>
+                <%= image_tag "discraft_logo.png"%>
+            <% end %>
+        <% end %>
         <div class="mt2 flex justify-around">
             <div>
                 <div><span>Make: </span> <%= @disc.make %></div>

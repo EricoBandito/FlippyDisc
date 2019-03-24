@@ -5,7 +5,15 @@
         <%= link_to disc do %>
             <div class="card grow pointer">
                 <div class="card-image pa3">
-                    <%= image_tag disc.image %>
+                    <% if disc.image.url %>
+                        <%= image_tag disc.image.url, width: 153 %>
+                    <% else %>
+                        <% if disc.make === "Innova" %>
+                            <%= image_tag "innova_logo.png"%>
+                        <% else %>
+                            <%= image_tag "discraft_logo.png"%>
+                        <% end %>
+                    <% end %>
                 </div>
                 <div class="card-content">
                     <div class="flex justify-around">
