@@ -3,18 +3,10 @@
     <button>Proceed to checkout</button>
 </div>
 <% @cart_items.each do |item| %>
-    <div class="flex">
-        <div class="flex">
-            <%= image_tag "discraft_logo.png"%>
-            <div class="ml4">
-                <div><%= item.make %></div>
-                <%= item.model %>
-            </div>
-        </div>
-        <div class="flex ml6">
-            <div> <%= item.price %></div>
-        </div>
-    </div>
+
+
+
+    <%= render partial: "cart_items/cart_item", locals: {disc: item} %>
 <% end %>
 
 <%= link_to 'Clear cart', cart_items_clear_path, method: :post %>
