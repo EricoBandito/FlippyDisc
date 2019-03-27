@@ -16,7 +16,6 @@ innova_list.each do |innova_disc|
         model: innova_disc['name'],
         disc_type: innova_disc['class'],
         price: Faker::Number.decimal(2),
-        plastic: 'test',
         nova_speed: innova_disc['flight']['speed'],
         nova_glide: innova_disc['flight']['glide'],
         nova_turn: innova_disc['flight']['turn'],
@@ -45,7 +44,6 @@ discraft_list.each do |discraft_disc|
     disc = Disc.create(make: "Discraft",
                 model: discraft_disc['name'],
                 disc_type: discraft_disc['class'],
-                plastic: 'test',
                 dc_flight: discraft_disc['flight'],
                 # image: 'discraft_logo.png'
                 )

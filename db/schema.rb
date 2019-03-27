@@ -52,7 +52,6 @@ ActiveRecord::Schema.define(version: 2019_03_23_213645) do
     t.string "model"
     t.float "price"
     t.string "disc_type"
-    t.string "plastic"
     t.float "dc_flight"
     t.integer "nova_speed"
     t.integer "nova_glide"

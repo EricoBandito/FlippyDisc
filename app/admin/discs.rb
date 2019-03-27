@@ -12,7 +12,7 @@ ActiveAdmin.register Disc do
 #   permitted
 # end
 
-    permit_params :make, :model, :disc_type, :plastic, :dc_flight, :nova_speed, :nova_glide, :nova_turn, :nova_fade, :image, disc_plastics_attributes: [:id, :disc_id, :plastic_id, :_destroy]
+    permit_params :make, :model, :disc_type, :dc_flight, :nova_speed, :nova_glide, :nova_turn, :nova_fade, :image, disc_plastics_attributes: [:id, :disc_id, :plastic_id, :_destroy]
 
     form do |f|
         f.semantic_errors *f.object.errors.keys
