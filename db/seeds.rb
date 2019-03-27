@@ -19,7 +19,7 @@ innova_list.each do |innova_disc|
         nova_speed: innova_disc['flight']['speed'],
         nova_glide: innova_disc['flight']['glide'],
         nova_turn: innova_disc['flight']['turn'],
-        nova_fade: innova_disc['flight']['fade'],
+        nova_fade: innova_disc['flight']['fade']
         # image: 'innova_logo.png'
         )
 
@@ -44,7 +44,7 @@ discraft_list.each do |discraft_disc|
     disc = Disc.create(make: "Discraft",
                 model: discraft_disc['name'],
                 disc_type: discraft_disc['class'],
-                dc_flight: discraft_disc['flight'],
+                dc_flight: discraft_disc['flight']
                 # image: 'discraft_logo.png'
                 )
 

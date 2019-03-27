@@ -29,6 +29,7 @@ ActiveAdmin.register Disc do
             f.input :nova_glide
             f.input :nova_turn
             f.input :nova_fade
+            f.input :image
         end
 
         f.actions
