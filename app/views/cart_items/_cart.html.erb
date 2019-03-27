@@ -1,0 +1,21 @@
+<div class="flex justify-between mt5 mb3">
+    <h1 class=" is-size-3">Shopping cart</h1>
+    <button>Proceed to checkout</button>
+</div>
+<% @cart_items.each do |item| %>
+    <div class="flex">
+        <div class="flex">
+            <%= image_tag "discraft_logo.png"%>
+            <div class="ml4">
+                <div><%= item.make %></div>
+                <%= item.model %>
+            </div>
+        </div>
+        <div class="flex ml6">
+            <div> <%= item.price %></div>
+        </div>
+    </div>
+<% end %>
+
+<%= debug session[:cart]%>
+<%= link_to 'Clear cart', cart_items_clear_path, method: :post %>

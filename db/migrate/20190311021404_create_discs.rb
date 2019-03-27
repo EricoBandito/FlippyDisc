@@ -3,6 +3,7 @@ class CreateDiscs < ActiveRecord::Migration[5.2]
     create_table :discs do |t|
       t.string :make
       t.string :model
+      t.float :price
       t.string :disc_type
       t.string :plastic
       t.float :dc_flight
