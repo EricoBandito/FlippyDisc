@@ -1,0 +1,24 @@
+
+
+<div class="flex mb3">
+    <div class="flex">
+        <div class="w5">
+            <% if disc.image.url %>
+                <%= image_tag disc.image.url, class: "w4 h4"%>
+            <% else %>
+                <% if disc.make === "Innova" %>
+                    <%= image_tag "innova_logo.png"%>
+                <% else %>
+                    <%= image_tag "discraft_logo.png"%>
+                <% end %>
+            <% end %>
+            </div>
+            <div class="w4 ml4">
+                <div>Make: <%= disc.make %></div>
+                <div>Model: <%= disc.model %></div>
+            </div>
+    </div>
+    <div class="flex ml6">
+        <div>Price: $<%= disc.price %></div>
+    </div>
+</div>

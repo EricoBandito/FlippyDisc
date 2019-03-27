@@ -1,40 +1,42 @@
-<div class="flex mt4 shadow-1 pv3">
-    <div class="w5 ph3">
-        <% if @disc.image.url %>
-            <%= image_tag @disc.image.url, width: 153 %>
-        <% else %>
-            <% if @disc.make === "Innova" %>
-                <%= image_tag "innova_logo.png"%>
+<div class="container">
+    <div class="bg-light-gray flex mt4 shadow-2 pv3">
+        <div class="w5 ph3">
+            <% if @disc.image.url %>
+                <%= image_tag @disc.image.url, width: 153 %>
             <% else %>
-                <%= image_tag "discraft_logo.png"%>
+                <% if @disc.make === "Innova" %>
+                    <%= image_tag "innova_logo.png"%>
+                <% else %>
+                    <%= image_tag "discraft_logo.png"%>
+                <% end %>
             <% end %>
-        <% end %>
-        <div class="mt2 flex justify-around">
-            <div>
-                <div><span>Make: </span> <%= @disc.make %></div>
-                <div><span>Model: </span> <%= @disc.model %></div>
-                <span class="mt3 tag is-info"><%= @disc.disc_type %></span>
-            </div>
+            <div class="mt2 flex justify-around">
+                <div>
+                    <div><span>Make: </span> <%= @disc.make %></div>
+                    <div><span>Model: </span> <%= @disc.model %></div>
+                    <span class="mt3 tag is-info"><%= @disc.disc_type %></span>
+                </div>
 
-            <% if @disc.make === "Innova" %>
-                <%= render partial: "shared/nova_flight", locals: {disc: @disc} %>
-            <% else %>
-                <%= render partial: "shared/discraft_flight", locals: {disc: @disc} %>
-            <% end %>
+                <% if @disc.make === "Innova" %>
+                    <%= render partial: "shared/nova_flight", locals: {disc: @disc} %>
+                <% else %>
+                    <%= render partial: "shared/discraft_flight", locals: {disc: @disc} %>
+                <% end %>
+
+            </div>
+        </div>
+        <div class="w5 pt4 pl4">
+            <div class="mb3"><span>Price: </span>$<%= @disc.price %></div>
+            <%= button_to 'Add to Cart', add_to_cart_disc_path(@disc), method:  :post    %>
+
+
+
 
         </div>
-    </div>
-    <div class="w5 pt4 pl4">
-          <div><span>Price: </span> 12.99</div>
-        <%= link_to 'Add to Cart', add_to_cart_disc_path(@disc), method:  :post    %>
-
 
 
 
     </div>
-
-
-
 </div>
 
 
