@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="h-100">
   <head>
     <title>FlippyDisc</title>
     <%= csrf_meta_tags %>
@@ -9,10 +9,10 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="h-100 bg-lightest-blue">
     <%= render "layouts/top_nav" %>
-    <div class="bg-lightest-blue pt3">
-    <%= yield %>
+    <div>
+      <%= yield %>
     </div>
   </body>
 </html>
