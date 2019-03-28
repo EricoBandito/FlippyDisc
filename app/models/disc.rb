@@ -3,6 +3,8 @@ class Disc < ApplicationRecord
     has_many :plastics, through: :disc_plastics
     accepts_nested_attributes_for :disc_plastics, allow_destroy: true
 
+    validates :make, :model, :price, :disc_type, presence: true
+
     mount_uploader :image, ImageUploader
 
     def self.search(type, input = "")
