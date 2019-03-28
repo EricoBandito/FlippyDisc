@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <div class="navbar-item">
 
-          <%= image_tag "logo.png" %>
+          <%= image_tag "logo.png", alt: "Flippy Disc Logo" %>
         <div class="mh3 is-size-4 is-family-monospace">Flippy Disc</div>
 
       </div>
@@ -16,9 +16,9 @@
         <a class="navbar-item">
           About
         </a>
-        <a class="navbar-item">
-          <%= link_to image_tag("cart.png", width:"32px"), cart_items_path, class: "flex items-center", height: "32px"%>
-        </a>
+
+        <%= link_to image_tag("cart.png", alt: "cart"), cart_items_path, class: "flex items-center navbar-item"%>
+
 
         </div>
       </div>
@@ -36,5 +36,4 @@
         </div>
       </div>
     </div>
-  </div>
 </nav>

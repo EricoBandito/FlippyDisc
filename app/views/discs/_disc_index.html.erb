@@ -6,12 +6,12 @@
             <div class="card grow pointer">
                 <div class="card-image pa3">
                     <% if disc.image.url %>
-                        <%= image_tag disc.image.url, width: 153 %>
+                        <%= image_tag disc.image.url, alt: disc.model, width: 153 %>
                     <% else %>
                         <% if disc.make === "Innova" %>
-                            <%= image_tag "innova_logo.png"%>
+                            <%= image_tag "innova_logo.png" , alt: disc.model%>
                         <% else %>
-                            <%= image_tag "discraft_logo.png"%>
+                            <%= image_tag "discraft_logo.png", alt: disc.model%>
                         <% end %>
                     <% end %>
                 </div>
@@ -25,7 +25,7 @@
                             <%= render partial: "shared/discraft_flight", locals: {disc: disc} %>
                         <% end %>
 
-                        <h3 class="is-size-5 mt3 b"><%= disc.model %><h3>
+                        <h3 class="is-size-5 mt3 b"><%= disc.model %></h3>
                     </div>
 
                     <div class="tc">
